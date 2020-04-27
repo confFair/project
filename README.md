@@ -1,9 +1,12 @@
-# Model-based Fairness Analysis: A Sub-Framework of the MoPrivFair Methodology
+# Model-based Detection of Software Discrimination
 
-This file presents the artifacts that are used in Chapter 4 of my PhD thesis, which provides a Framework for Analysing Individual Fairness based on Software Models. This framework is a sub-framework of the proposed MoPrivFair methodology in my thesis. The artifacts include:
+In this file, we presents the artifacts used in our paper, which provides a Framework for Analysing Individual Fairness based on Software Models. The artifacts include:
+
 * the *UMLfair profile*.
 
-* The inputs and the outputs of applying our proposed framework on three case studies namely, the School Management System based on an artificail case study, the Delivery Management System based on the incedent describtion of [Amazon's delivery-free service](https://www.bloomberg.com/graphics/2016-amazon-same-day/), and the Loan Management System based on [business process model](https://link.springer.com/chapter/10.1007/978-3-319-92901-9_19) from an [event log](https://www.win.tue.nl/bpi/doku.php?id=2012:challenge) recording the loan management process of a Dutch financial institute. 
+*  A prototypical implementation that supports the generation of LTL claims from UML models annotated with UMLfair stereotypes. 
+
+* The inputs and the outputs of applying our proposed framework on three case studies namely, the Bank Services System based on a real case study, the Delivery Management System based on the incedent describtion of [Amazon's delivery-free service](https://www.bloomberg.com/graphics/2016-amazon-same-day/), and the Loan Management System based on [business process model](https://link.springer.com/chapter/10.1007/978-3-319-92901-9_19) from an [event log](https://www.win.tue.nl/bpi/doku.php?id=2012:challenge) recording the loan management process of a Dutch financial institute. 
 
 # Recources
 
