@@ -13,7 +13,7 @@ In this file, we presents the artifacts used in our paper, which provides a Fram
 * **Profile: The UMLfair Profile:** https://github.com/QRamadan/MoPrivFair-FairnessAnalysis/blob/master/profile.zip
 * **Lunch configuration: The lucn configuration to the transformation tool hugo/RT:** https://github.com/QRamadan/MoPrivFair-FairnessAnalysis/blob/master/hugort.launch
 
-* **Artifacts: The school management system case study:** https://github.com/QRamadan/MoPrivFair-FairnessAnalysis/blob/master/SchoolManagementSystem.zip
+* **Artifacts: The bank services system case study:** 
 * **Artifacts: The delivery management system case study:** https://github.com/QRamadan/MoPrivFair-FairnessAnalysis/blob/master/DeliveryManagementSystem.zip
 * **Artifacts: The loan management system case study:** https://github.com/QRamadan/MoPrivFair-FairnessAnalysis/blob/master/LoanManagementSystem.zip
 
