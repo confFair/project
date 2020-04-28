@@ -38,7 +38,7 @@ We recommend using [Eclipse, Modeling Tools distribution](https://www.eclipse.or
 * Click on the *New Item* icon. Add a name to the created item, for example, *hugort*.
 * In the main table, add the directory to java.exe in the location textbox. For example, in my computer, the directory is (**C:\Program Files\Java\jdk1.8.0_241\bin\java.exe**)
 * In the working directory textbox, add the directory to the lib forlder of the installed hugo/RT on your desktop. For example, **C:\Users\anonymous\Desktop\hugort-0_8a\lib**.
-* Copy and Paste the following lunch configuration to the arguments textbox and change the user name from *anonymous* to your user name: -jar C:/Users/anonymous/Desktop/hugort-0_8a/lib/hugort.jar -opromela=C:/Users/anonymous/workspace/hugort/model.pml C:/Users/an/workspace/hugort/model.xml
+* Copy and Paste the following lunch configuration to the arguments textbox and change the user name from *anonymous* to your *user name*: **-jar C:/Users/anonymous/Desktop/hugort-0_8a/lib/hugort.jar -opromela=C:/Users/anonymous/workspace/hugort/model.pml C:/Users/an/workspace/hugort/model.xml**
 
 * Press *Run*. After running the *hugort* lunch file, you should see the console output informing you about the transformation process. The process should take a few milliseconds. The process is finished when the following line is printed to the console: *Writing Promela system to.....*
 
