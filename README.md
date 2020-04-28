@@ -53,7 +53,7 @@ We recommend using [Eclipse, Modeling Tools distribution](https://www.eclipse.or
 ## Performing the generation of LTL claims. 
 To execute the generation of LTL claims from UML models annotated with the UMLfair profile, please follow the following instruction. 
 
-* Import our project package to your local Eclipse workspace.
+* Import the project package [ClaimsExtraction.zip](https://github.com/confFair/project/blob/master/ClaimsExtraction.zip)  to your local Eclipse workspace.
 * Right-click on the main class *"src/ltlGenerator/Generator.java"* → *Run As Java Application*. Our generator takes as inputs: First, a UML model saved as (.xml) file. Second, information of proxies saved in a (.xlsx) file. By default, our generator takes as input the *bankSystem.xml* and the *ProxyOfBankSystem.xlsx* files. 
 
 * Changing the input (.xml) file: First, copy the name of one of the (.xml) files that are provided in *ClaimsExtraction → src → ltlGenerator* directory. Second, find line 47 in the *Generator.java* file (**File inputFile = new File(xmlPath+"\\bankSystem.xml");**) and replace the file name *"bankSystem"* with the name of the selected (.xml) file. 
