@@ -40,3 +40,5 @@ To execute the generation of LTL claims from UML models annotated with the UMLfa
 * Changing the input (.xml) file: First, copy the name of one of the (.xml) files that are provided in *ClaimsExtraction → src → ltlGenerator* directory. Second, find line 52 in the *Generator.java* file (**File inputFile = new File(xmlPath+"\\bankSystem.xml");**) and replace the file name *"bankSystem"* with the name of the selected (.xml) file. 
 
 * Changing the input (.xlsx) file: First, copy the name of the corresponding (.xlsx) file to the selected (.xml) file. The (.xlsx) files are provided in directly in the *ClaimsExtraction* directory. Second, find line 70 in the *Generator.java* file (**File myExcelBook=new File("ProxyOfBankSystem.xlsx");**) and replace the file name *"ProxyOfBankSystem"* with the name of the selected (.xlsx) file.
+
+* After running the *Generator.java* file, you should see the console output informing you about the generation process. The process should take a few milliseconds. The process is finished when the following line is printed to the console: *Completed Successfully! Time[ms]: ...*.
