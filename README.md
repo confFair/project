@@ -31,7 +31,7 @@ The uploaded [ClaimsExtraction.zip](https://github.com/confFair/project/blob/mas
 ## Prerequisite 
 We recommend using [Eclipse, Modeling Tools distribution](https://www.eclipse.org/downloads/packages/release/neon/r/eclipse-modeling-tools).
 
-## Performing the LTL claims generation. 
+## Performing the generation of LTL claims. 
 To execute the generation of LTL claims from UML models annotated with the UMLfair profile, please follow the following instruction. 
 
 * Import our project package to your local Eclipse workspace.
