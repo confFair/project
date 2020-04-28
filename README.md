@@ -37,9 +37,9 @@ To execute the generation of LTL claims from UML models annotated with the UMLfa
 * Import our project package to your local Eclipse workspace.
 * Right-click on the main class *"src/ltlGenerator/Generator.java"* → *Run As Java Application*. Our generator takes as inputs: First, a UML model saved as (.xml) file. Second, information of proxies saved in a (.xlsx) file. By default, our generator takes as input the *bankSystem.xml* and the *ProxyOfBankSystem.xlsx* files. 
 
-* Changing the input (.xml) file: First, copy the name of one of the (.xml) files that are provided in *ClaimsExtraction → src → ltlGenerator* directory. Second, find line 52 in the *Generator.java* file (**File inputFile = new File(xmlPath+"\\bankSystem.xml");**) and replace the file name *"bankSystem"* with the name of the selected (.xml) file. 
+* Changing the input (.xml) file: First, copy the name of one of the (.xml) files that are provided in *ClaimsExtraction → src → ltlGenerator* directory. Second, find line 47 in the *Generator.java* file (**File inputFile = new File(xmlPath+"\\bankSystem.xml");**) and replace the file name *"bankSystem"* with the name of the selected (.xml) file. 
 
-* Changing the input (.xlsx) file: First, copy the name of the corresponding (.xlsx) file to the selected (.xml) file. The (.xlsx) files are provided in directly in the *ClaimsExtraction* directory. Second, find line 70 in the *Generator.java* file (**File myExcelBook=new File("ProxyOfBankSystem.xlsx");**) and replace the file name *"ProxyOfBankSystem"* with the name of the selected (.xlsx) file.
+* Changing the input (.xlsx) file: First, copy the name of the corresponding (.xlsx) file to the selected (.xml) file. The (.xlsx) files are provided in directly in the *ClaimsExtraction* directory. Second, find line 65 in the *Generator.java* file (**File myExcelBook=new File("ProxyOfBankSystem.xlsx");**) and replace the file name *"ProxyOfBankSystem"* with the name of the selected (.xlsx) file.
 
 * After running the *Generator.java* file, you should see the console output informing you about the generation process. The process should take a few milliseconds. The process is finished when the following line is printed to the console: *Completed Successfully! Time[ms]: ...*. The time shows the time needed for generating the claims.
 
