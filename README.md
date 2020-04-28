@@ -28,3 +28,11 @@ The artifacts of each each case study contains:
 # Generating LTL claims
 The uploaded [ClaimsExtraction.zip](https://github.com/confFair/project/blob/master/ClaimsExtraction.zip) file includes all the required artifacts for generating LTL claims based on the UML models that are annotated with the UMLfair profile.
 
+## Prerequisite 
+We recommend using [Eclipse, Modeling Tools distribution](https://www.eclipse.org/downloads/packages/release/neon/r/eclipse-modeling-tools).
+
+## Performing the LTL claims generation. 
+To execute the generation of LTL claims from UML models annotated with the UMLfair profile, please follow the following instruction. 
+
+* Import our project package to your local Eclipse workspace.
+* Right-click on the main class *"src/ltlGenerator/Generator.java"* → *Run As Java Application*. Our generator takes as input a UML model saved as (.xml) file. By default, our generator takes as input the *bankSystem.xml* file. To change the input file, first copy the name of one of the xml files that are provided in *ClaimsExtraction → src → ltlGenerator* directory. Second, find line 51 in the *Generator.java* file (**File inputFile = new File("/Users/qramadan/workspace/ClaimsExtraction/src/ltlGenerator/loanSystem.xml");**)  and replace the file name *"bankSystem"* with the name of the selected xml file.
