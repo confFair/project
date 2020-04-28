@@ -11,6 +11,7 @@ In this file, we presents the artifacts used in our paper, which provides a Fram
 # Recources
 
 * **Profile: The UMLfair Profile:** https://github.com/confFair/project/blob/master/profile.zip
+* **LTL claims generator:** https://github.com/confFair/project/blob/master/ClaimsExtraction.zip
 * **Lunch configuration: The lucn configuration to the transformation tool hugo/RT:** https://github.com/confFair/project/blob/master/hugort.launch
 
 * **Artifacts: The bank services system case study:** https://github.com/confFair/project/blob/master/BankServicesSystem.zip
