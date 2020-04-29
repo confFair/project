@@ -67,3 +67,21 @@ To execute the generation of LTL claims from UML models annotated with the UMLfa
 # 3) Verifying the generated LTL claims
 The uploaded (.zip) files of the cases studies include all the required artifacts for verifying the generated LTL claims. Each (.zip) file include a (.pml) file that contains a set of claims. In the following, we explain how the LTL claims can be verified using the  SPIN model checker.  
 
+## Prerequisite 
+Install [SpinRCP, An Integrated Development Environment for the Spin Model Checker](http://lms.uni-mb.si/spinrcp/index.html). SpinRCP has dependancy on several external software. Information of the need software can be found  [here](http://lms.uni-mb.si/spinrcp/Download.html).
+
+* Create a workspace folder for the SpinRCP. In the workspace of the SpinRCP, create a folder for your first project.
+* Select the (.pml) file that you want to verify its LTL claims. The (.pml) files are provided in the (.zip) files of our case studies. 
+* Copy the selected (.pml) to your project folder in the workspace of the SpinRCP.
+* Open the SpinRCP by doubple click on the *SpinRCP.exe* file. SpinRCP will ask you to specify the directory to the created workspace. 
+* In the *Model Navigator* view, you should see the created project and it should contain the selected (.pml) file.
+* Open the (.pml) file and then select the SpinRCP menu item *Run→ Syntax Check*. After running the syntax check, you should see the console output informing you about the process. The process should take a few milliseconds. The process is succefully finished when the following line is printed to the console: *No Syntax Error!* 
+
+* Next, select the SpinRCP menu item *Run→ Verification*. 
+* In the open window, you should setup the configuration for the verification process as follows. First, regarding the correctness properities, choose only  *Liveness* and *Acceptance cycles*. Second, only select the check-box of *Report unreachable code*.  Second, regarding the storage mode,  choose only *Exhustive*. Then make sure that the check-box of *Apply never claim ...* is selected. Third,  select *In-model LTL formula...*. In the corresponding textbox, add the name of the claim to be verified for example *claim1*. The name represents a reference to the to-be-verified claim. The calims are provided at the end of the (.pml) model and each claim has a specific number.
+* Press *OK*. After running the syntax check, you should see the console output informing you about the verification process. The process should take a few milliseconds. In case the verified claim is violated, an error message will be appear and a (.trail) file will be generated. The (.trail) file is a counterexample of the violated claim. 
+
+* To simulate the (.trail) file, select the SpinRCP menu item *Run→ Simulation*. In the simulation window, select *Guided* and *Using filename.trail*. Then press *OK*  and then Press *Run*.
+
+
+
